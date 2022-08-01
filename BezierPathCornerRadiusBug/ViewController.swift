@@ -11,51 +11,69 @@ class ViewController: UIViewController {}
 
 final class CornerViewGreen: UIView {
     override func draw(_ rect: CGRect) {
-        let roundedPath = UIBezierPath(
+        
+        let roundedPath0 = UIBezierPath(
             roundedRect: CGRect(
-                x: bounds.origin.x,
-                y: bounds.origin.y,
-                width: bounds.width,
-                height: bounds.height),
+                x: 100,
+                y: 100,
+                width: 100,
+                height: 100),
+            byRoundingCorners: [.allCorners],
+            cornerRadii: CGSize(
+                width: 20,
+                height: 20))
+        UIColor.black.setFill()
+        roundedPath0.fill()
+        
+        let roundedPath1 = UIBezierPath(
+            roundedRect: CGRect(
+                x: 100,
+                y: 100,
+                width: 100,
+                height: 100),
             byRoundingCorners: [.allCorners],
             cornerRadii: CGSize(
                 width: 25,
                 height: 25))
         UIColor.green.setFill()
-        roundedPath.fill()
-    }
-}
-
-final class CornerViewBlue: UIView {
-    override func draw(_ rect: CGRect) {
-        let roundedPath = UIBezierPath(
+        roundedPath1.fill()
+        
+        let roundedPath2 = UIBezierPath(
             roundedRect: CGRect(
-                x: bounds.origin.x,
-                y: bounds.origin.y,
-                width: bounds.width,
-                height: bounds.height),
+                x: 100,
+                y: 100,
+                width: 100,
+                height: 100),
             byRoundingCorners: [.allCorners],
             cornerRadii: CGSize(
                 width: 30,
                 height: 30))
         UIColor.blue.setFill()
-        roundedPath.fill()
-    }
-}
-
-final class CornerViewRed: UIView {
-    override func draw(_ rect: CGRect) {
-        let roundedPath = UIBezierPath(
+        roundedPath2.fill()
+        
+        let roundedPath3 = UIBezierPath(
             roundedRect: CGRect(
-                x: bounds.origin.x,
-                y: bounds.origin.y,
-                width: bounds.width,
-                height: bounds.height),
+                x: 100,
+                y: 100,
+                width: 100,
+                height: 100),
             byRoundingCorners: [.allCorners],
             cornerRadii: CGSize(
                 width: 35,
                 height: 35))
         UIColor.red.setFill()
-        roundedPath.fill()
+        roundedPath3.fill()
+    }
+}
+
+final class CornerViewBlue: UIView {
+    override func draw(_ rect: CGRect) {
+        
+    }
+}
+
+final class CornerViewRed: UIView {
+    override func draw(_ rect: CGRect) {
+        
     }
 }

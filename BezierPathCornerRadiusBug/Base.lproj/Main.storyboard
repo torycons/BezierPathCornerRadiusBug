@@ -17,35 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f17-By-n9e" customClass="CornerViewGreen" customModule="BezierPathCornerRadiusBug" customModuleProvider="target">
-                                <rect key="frame" x="107" y="398" width="200" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="4tu-jt-jRq"/>
-                                    <constraint firstAttribute="height" constant="100" id="SR4-Bx-aIz"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8tl-qS-LQ5" customClass="CornerViewBlue" customModule="BezierPathCornerRadiusBug" customModuleProvider="target">
-                                <rect key="frame" x="107" y="398" width="200" height="100"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hnm-sL-2fH" customClass="CornerViewRed" customModule="BezierPathCornerRadiusBug" customModuleProvider="target">
-                                <rect key="frame" x="107" y="398" width="200" height="100"/>
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="8tl-qS-LQ5" firstAttribute="trailing" secondItem="f17-By-n9e" secondAttribute="trailing" id="4ks-H3-4o2"/>
-                            <constraint firstItem="Hnm-sL-2fH" firstAttribute="leading" secondItem="f17-By-n9e" secondAttribute="leading" id="7qm-Fd-KwB"/>
-                            <constraint firstItem="Hnm-sL-2fH" firstAttribute="bottom" secondItem="f17-By-n9e" secondAttribute="bottom" id="DPy-TC-FrS"/>
-                            <constraint firstItem="Hnm-sL-2fH" firstAttribute="top" secondItem="f17-By-n9e" secondAttribute="top" id="DRj-gl-0QM"/>
-                            <constraint firstItem="Hnm-sL-2fH" firstAttribute="trailing" secondItem="f17-By-n9e" secondAttribute="trailing" id="NHS-V9-Jbg"/>
-                            <constraint firstItem="f17-By-n9e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WCt-SZ-gY1"/>
-                            <constraint firstItem="8tl-qS-LQ5" firstAttribute="bottom" secondItem="f17-By-n9e" secondAttribute="bottom" id="aUd-xq-GI7"/>
-                            <constraint firstItem="8tl-qS-LQ5" firstAttribute="top" secondItem="f17-By-n9e" secondAttribute="top" id="rwO-2L-hpP"/>
-                            <constraint firstItem="8tl-qS-LQ5" firstAttribute="leading" secondItem="f17-By-n9e" secondAttribute="leading" id="saf-B4-Esp"/>
-                            <constraint firstItem="f17-By-n9e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z0p-hJ-Ig3"/>
+                            <constraint firstItem="f17-By-n9e" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8m0-5l-iGa"/>
+                            <constraint firstItem="f17-By-n9e" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PST-XF-vwA"/>
+                            <constraint firstItem="f17-By-n9e" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="khz-ww-kCa"/>
+                            <constraint firstItem="f17-By-n9e" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="xJs-Ob-8cv"/>
                         </constraints>
                     </view>
                 </viewController>
